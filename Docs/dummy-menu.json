@@ -1,0 +1,115 @@
+{
+  "note": "Dish names, allergen info, and notes are REAL (provided by client). Prices are DUMMY placeholders — confirm real prices before Phase 1 launch. is_veg / spice_level / image_url are placeholders for demo purposes.",
+  "categories": [
+    { "id": "cat-biryani-rice", "name": "Biryani & Rice", "sort_order": 1 },
+    { "id": "cat-karahi-mains", "name": "Karahi & Mains", "sort_order": 2 },
+    { "id": "cat-vegetarian", "name": "Vegetarian & Sides", "sort_order": 3 }
+  ],
+  "menu_items": [
+    {
+      "id": "item-chicken-biryani",
+      "category_id": "cat-biryani-rice",
+      "name": "Chicken Biryani",
+      "description": "Fragrant basmati rice layered with spiced chicken, slow-cooked in traditional biryani masala.",
+      "price": 14.50,
+      "image_url": "PLACEHOLDER_IMAGE",
+      "is_veg": false,
+      "spice_level": 2,
+      "is_available": true,
+      "allergens": ["Milk", "Mustard", "Sulphites"],
+      "allergen_notes": "Contains yogurt & ghee. May contain traces of nuts."
+    },
+    {
+      "id": "item-chicken-tikka-biryani",
+      "category_id": "cat-biryani-rice",
+      "name": "Chicken Tikka Biryani",
+      "description": "Biryani made with char-grilled chicken tikka, marinated in a creamy yogurt-based mix before layering.",
+      "price": 15.50,
+      "image_url": "PLACEHOLDER_IMAGE",
+      "is_veg": false,
+      "spice_level": 2,
+      "is_available": true,
+      "allergens": ["Milk", "Mustard", "Sulphites"],
+      "allergen_notes": "Contains yogurt, cream in tikka marination."
+    },
+    {
+      "id": "item-chicken-korma",
+      "category_id": "cat-karahi-mains",
+      "name": "Chicken Korma",
+      "description": "Mild, creamy chicken curry finished with a rich cashew and almond paste.",
+      "price": 15.00,
+      "image_url": "PLACEHOLDER_IMAGE",
+      "is_veg": false,
+      "spice_level": 1,
+      "is_available": true,
+      "allergens": ["Milk", "Nuts (Cashew/Almond)", "Mustard"],
+      "allergen_notes": "HIGH RISK — contains cream & cashew paste.",
+      "allergen_high_risk": true
+    },
+    {
+      "id": "item-chicken-karahi",
+      "category_id": "cat-karahi-mains",
+      "name": "Chicken Karahi",
+      "description": "Classic wok-cooked chicken curry with tomatoes, ginger, and a blend of karahi spices.",
+      "price": 15.00,
+      "image_url": "PLACEHOLDER_IMAGE",
+      "is_veg": false,
+      "spice_level": 3,
+      "is_available": true,
+      "allergens": ["Milk", "Mustard", "Sulphites"],
+      "allergen_notes": "Contains yogurt, butter, tomatoes."
+    },
+    {
+      "id": "item-chicken-pulao",
+      "category_id": "cat-biryani-rice",
+      "name": "Chicken Pulao",
+      "description": "Lightly spiced rice cooked with chicken in a mild, aromatic broth.",
+      "price": 13.50,
+      "image_url": "PLACEHOLDER_IMAGE",
+      "is_veg": false,
+      "spice_level": 1,
+      "is_available": true,
+      "allergens": ["Mustard", "Sulphites", "Soya (oil)"],
+      "allergen_notes": "Light dairy (ghee). Usually nut-free."
+    },
+    {
+      "id": "item-lamb-karahi",
+      "category_id": "cat-karahi-mains",
+      "name": "Lamb Karahi",
+      "description": "Tender lamb cooked karahi-style with yogurt, butter, and a spicy tomato-based sauce.",
+      "price": 17.50,
+      "image_url": "PLACEHOLDER_IMAGE",
+      "is_veg": false,
+      "spice_level": 3,
+      "is_available": true,
+      "allergens": ["Milk", "Mustard", "Sulphites"],
+      "allergen_notes": "Contains yogurt & butter. Spicy."
+    },
+    {
+      "id": "item-mix-vegetables",
+      "category_id": "cat-vegetarian",
+      "name": "Mix Vegetables",
+      "description": "A medley of seasonal vegetables cooked in a lightly spiced desi-style sauce.",
+      "price": 10.50,
+      "image_url": "PLACEHOLDER_IMAGE",
+      "is_veg": true,
+      "spice_level": 1,
+      "is_available": true,
+      "allergens": ["Mustard", "Celery", "Sulphites"],
+      "allergen_notes": "Vegan if made without ghee. Gluten-free."
+    },
+    {
+      "id": "item-daal-channa",
+      "category_id": "cat-vegetarian",
+      "name": "Daal Channa",
+      "description": "Slow-cooked chickpea lentils simmered with onions, tomatoes, and traditional spices.",
+      "price": 9.50,
+      "image_url": "PLACEHOLDER_IMAGE",
+      "is_veg": true,
+      "spice_level": 1,
+      "is_available": true,
+      "allergens": ["Mustard", "Celery", "Sulphites"],
+      "allergen_notes": "Vegan. No milk/nuts. Gluten-free."
+    }
+  ]
+}
