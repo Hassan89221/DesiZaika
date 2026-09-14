@@ -13,8 +13,15 @@ export const metadata: Metadata = {
   title: 'DesiZaika — Authentic Indian & Pakistani Cuisine',
   description:
     'Experience the rich flavors of India and Pakistan. Order online for pickup or delivery, browse our menu, and discover the story behind DesiZaika.',
+  icons: {
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+    ],
+    shortcut: '/icon.svg',
+    apple: '/icon.svg',
+  },
   openGraph: {
-    title: 'DesiZaika — Authentic Indian & Pakistani Cuisine',
+    title: 'DesiZaika | Authentic Indian & Pakistani Cuisine',
     description:
       'Experience the rich flavors of India and Pakistan. Order online for pickup or delivery.',
     type: 'website',

@@ -25,13 +25,13 @@ export function HeroSection() {
         <div className="max-w-2xl">
           <div className="animate-hero-badge mb-4 inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-sm font-medium text-white backdrop-blur-sm">
             <Star className="h-4 w-4 fill-accent text-accent" />
-            <span>Rated 4.9 by 2,000+ happy customers</span>
+            <span>Rated 4.9 by 350+ happy customers</span>
           </div>
 
           <h1 className="animate-hero-title font-display text-5xl font-bold leading-[1.1] text-white sm:text-6xl lg:text-7xl">
             Authentic Flavors
             <br />
-            of <span className="text-accent">India &amp; Pakistan</span>
+            of <span className="text-accent">Pakistan &amp; India</span>
           </h1>
 
           <p className="animate-hero-text mt-6 max-w-xl text-lg leading-relaxed text-white/80 sm:text-xl">

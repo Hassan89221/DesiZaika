@@ -8,11 +8,16 @@ export function useAnimatedCounter(
   start = 0
 ) {
   const [value, setValue] = useState(start);
-  const startedRef = useRef(false);
+  const currentTargetRef = useRef<number | null>(null);
 
   useEffect(() => {
-    if (startedRef.current) return;
-    startedRef.current = true;
+    if (target === currentTargetRef.current) return;
+    currentTargetRef.current = target;
+
+    if (target === 0 && start === 0) {
+      setValue(0);
+      return;
+    }
 
     let startTime: number | null = null;
     let rafId: number;
