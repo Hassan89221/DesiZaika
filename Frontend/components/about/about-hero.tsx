@@ -13,7 +13,7 @@ export function AboutHero() {
       <div className="relative z-10 flex h-full items-center justify-center">
         <div className="px-4 text-center">
           <p className="animate-hero-badge mb-3 text-sm font-semibold uppercase tracking-wider text-accent">
-            Est. 2015
+            Est. 2025
           </p>
           <h1 className="animate-hero-title font-display text-4xl font-bold text-white sm:text-5xl lg:text-6xl">
             Our Story
