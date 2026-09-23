@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
@@ -35,7 +35,7 @@ export function HeroSection() {
           </h1>
 
           <p className="animate-hero-text mt-6 max-w-xl text-lg leading-relaxed text-white/80 sm:text-xl">
-            From sizzling tandoor to fragrant biryani, every dish at DesiZaika
+            From sizzling tandoor to fragrant biryani, every dish at CurryMama
             is crafted with time-honored recipes and the freshest spices. Order
             online for pickup or delivery.
           </p>

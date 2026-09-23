@@ -1,6 +1,6 @@
-# 🔥 DesiZaika — Next.js 13 Restaurant Application
+﻿# 🔥 CurryMama — Next.js 13 Restaurant Application
 
-This is the Next.js App Router application for **DesiZaika** (30 Crumlin Rd, Dublin, D12 HXW0).
+This is the Next.js App Router application for **CurryMama** (30 Crumlin Rd, Dublin, D12 HXW0).
 
 ## 🚀 Quick Start
 

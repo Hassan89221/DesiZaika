@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState } from 'react';
 import { useAuth } from './auth-context';
@@ -66,7 +66,7 @@ export function AuthModal() {
             <Flame className="h-6 w-6" />
           </div>
           <DialogTitle className="font-display text-2xl font-bold">
-            Welcome to DesiZaika
+            Welcome to CurryMama
           </DialogTitle>
           <DialogDescription>
             Log in or sign up to complete your food order.

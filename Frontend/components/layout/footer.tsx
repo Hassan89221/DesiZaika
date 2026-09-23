@@ -1,4 +1,4 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import { Flame, Facebook, Instagram, Twitter, Youtube, MapPin, Phone, Mail, Clock } from 'lucide-react';
 import { restaurantInfo } from '@/lib/dummy-data';
 
@@ -14,7 +14,7 @@ export function Footer() {
                 <Flame className="h-5 w-5" />
               </div>
               <span className="font-display text-xl font-bold tracking-tight">
-                Desi<span className="text-primary">Zaika</span>
+                Curry<span className="text-primary">Mama</span>
               </span>
             </Link>
             <p className="text-sm text-muted-foreground">
@@ -138,7 +138,7 @@ export function Footer() {
 
         <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-border pt-6 sm:flex-row">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} DesiZaika. All rights reserved.
+            &copy; {new Date().getFullYear()} CurryMama. All rights reserved.
           </p>
           <div className="flex gap-4 text-xs text-muted-foreground">
             <a href="#" className="transition-colors hover:text-primary">

@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -55,7 +55,7 @@ export function Navbar() {
             <Flame className="h-5 w-5" />
           </div>
           <span className="font-display text-xl font-bold tracking-tight">
-            Desi<span className="text-primary">Zaika</span>
+            Curry<span className="text-primary">Mama</span>
           </span>
         </Link>
 
@@ -128,7 +128,7 @@ export function Navbar() {
             </SheetTrigger>
             <SheetContent side="right" className="w-72">
               <SheetTitle className="mb-6 font-display text-xl">
-                Desi<span className="text-primary">Zaika</span>
+                Curry<span className="text-primary">Mama</span>
               </SheetTitle>
 
               {user && (

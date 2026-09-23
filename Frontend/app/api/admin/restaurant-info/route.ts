@@ -1,9 +1,9 @@
-import { verifyAdminRole } from '@/lib/auth/admin'
+﻿import { verifyAdminRole } from '@/lib/auth/admin'
 import { NextResponse } from 'next/server'
 
 // Default fallback restaurant configuration
 let restaurantInfoStore = {
-    name: 'DesiZaika',
+    name: 'CurryMama',
     address: '30 Crumlin Rd, Crumlin, Dublin, D12 HXW0',
     phone: '(01) 538 1281',
     email: process.env.RESTAURANT_ALERT_EMAIL || 'Unxox11@gmail.com',

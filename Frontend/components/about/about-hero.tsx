@@ -1,11 +1,11 @@
-export function AboutHero() {
+﻿export function AboutHero() {
   return (
     <section className="relative h-[50vh] min-h-[400px] w-full overflow-hidden">
       <div className="absolute inset-0">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="https://images.pexels.com/photos/19447626/pexels-photo-19447626.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080"
-          alt="DesiZaika restaurant interior"
+          alt="CurryMama restaurant interior"
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70" />

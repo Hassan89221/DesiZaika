@@ -1,4 +1,4 @@
-import type {
+﻿import type {
   MenuItem,
   Testimonial,
   GalleryImage,
@@ -7,7 +7,7 @@ import type {
 } from './types';
 
 export const restaurantInfo: RestaurantInfo = {
-  name: 'DesiZaika',
+  name: 'CurryMama',
   tagline: 'Authentic Indian & Pakistani Cuisine',
   address: '30 Crumlin Rd, Crumlin',
   city: 'Dublin',
@@ -25,10 +25,10 @@ export const restaurantInfo: RestaurantInfo = {
     { day: 'Sunday', open: '1:00 PM', close: '10:00 PM' },
   ],
   social: {
-    facebook: 'https://facebook.com/desizaika',
-    instagram: 'https://instagram.com/desizaika',
-    twitter: 'https://twitter.com/desizaika',
-    youtube: 'https://youtube.com/desizaika',
+    facebook: 'https://facebook.com/CurryMama',
+    instagram: 'https://instagram.com/CurryMama',
+    twitter: 'https://twitter.com/CurryMama',
+    youtube: 'https://youtube.com/CurryMama',
   },
   deliveryFee: 3.50,
   minOrder: 15.00,
@@ -574,7 +574,7 @@ export const testimonials: Testimonial[] = [
     role: 'Food Blogger',
     avatar: 'https://i.pravatar.cc/150?img=44',
     rating: 5,
-    text: 'The butter chicken here is the best I have had outside of Delhi. The flavors are authentic, the portions generous, and the naan is always fresh from the tandoor. DesiZaika has become my go-to for Indian food in the city.',
+    text: 'The butter chicken here is the best I have had outside of Delhi. The flavors are authentic, the portions generous, and the naan is always fresh from the tandoor. CurryMama has become my go-to for Indian food in the city.',
     date: '2025-08-15',
   },
   {
@@ -619,7 +619,7 @@ export const testimonials: Testimonial[] = [
     role: 'Food Critic',
     avatar: 'https://i.pravatar.cc/150?img=68',
     rating: 5,
-    text: 'DesiZaika delivers a genuine taste of the subcontinent. The rogan josh is deeply spiced without being overwhelming, and the seekh kebabs are smoky and tender. This is serious cooking, not dumbed down for anyone.',
+    text: 'CurryMama delivers a genuine taste of the subcontinent. The rogan josh is deeply spiced without being overwhelming, and the seekh kebabs are smoky and tender. This is serious cooking, not dumbed down for anyone.',
     date: '2025-08-18',
   },
 ];

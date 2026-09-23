@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useCallback, useEffect } from 'react';
 import { galleryImages } from '@/lib/dummy-data';
@@ -52,7 +52,7 @@ export function GallerySection() {
           </h2>
           <p className="mx-auto mt-3 max-w-xl text-muted-foreground">
             From our kitchen to your table — a visual journey through the
-            DesiZaika experience.
+            CurryMama experience.
           </p>
         </ScrollReveal>
 

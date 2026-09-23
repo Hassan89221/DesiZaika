@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { Star, Quote } from 'lucide-react';
 import { testimonials } from '@/lib/dummy-data';
@@ -54,7 +54,7 @@ export function TestimonialsSection() {
           </h2>
           <p className="mx-auto mt-3 max-w-xl text-muted-foreground">
             Don&apos;t just take our word for it. Here&apos;s what our customers
-            have to say about their DesiZaika experience.
+            have to say about their CurryMama experience.
           </p>
         </ScrollReveal>
 

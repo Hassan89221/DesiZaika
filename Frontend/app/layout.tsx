@@ -1,4 +1,4 @@
-import './globals.css';
+﻿import './globals.css';
 import type { Metadata } from 'next';
 import { Inter, Playfair_Display } from 'next/font/google';
 import { Providers } from '@/components/providers';
@@ -10,9 +10,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'DesiZaika — Authentic Indian & Pakistani Cuisine',
+  title: 'CurryMama — Authentic Indian & Pakistani Cuisine',
   description:
-    'Experience the rich flavors of India and Pakistan. Order online for pickup or delivery, browse our menu, and discover the story behind DesiZaika.',
+    'Experience the rich flavors of India and Pakistan. Order online for pickup or delivery, browse our menu, and discover the story behind CurryMama.',
   icons: {
     icon: [
       { url: '/icon.svg', type: 'image/svg+xml' },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     apple: '/icon.svg',
   },
   openGraph: {
-    title: 'DesiZaika | Authentic Indian & Pakistani Cuisine',
+    title: 'CurryMama | Authentic Indian & Pakistani Cuisine',
     description:
       'Experience the rich flavors of India and Pakistan. Order online for pickup or delivery.',
     type: 'website',

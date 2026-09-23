@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
@@ -12,7 +12,7 @@ import { useAnimatedCounter } from '@/hooks/use-animated-counter';
 const SLIDESHOW_IMAGES = [
   {
     src: 'https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=940&q=80',
-    alt: 'DesiZaika restaurant — authentic Pakistani & Indian dining',
+    alt: 'CurryMama restaurant — authentic Pakistani & Indian dining',
   },
   {
     src: 'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=940&q=80',

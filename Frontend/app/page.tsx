@@ -1,4 +1,4 @@
-import { Navbar } from '@/components/layout/navbar';
+﻿import { Navbar } from '@/components/layout/navbar';
 import { Footer } from '@/components/layout/footer';
 import { CartDrawer } from '@/components/cart/cart-drawer';
 import { FloatingCartButton } from '@/components/cart/floating-cart-button';
@@ -100,7 +100,7 @@ async function getFeaturedDishes(): Promise<MenuItem[]> {
 const CATEGORY_FALLBACKS: SlideImage[] = [
   {
     src: 'https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=940&q=80',
-    alt: 'DesiZaika — authentic Pakistani & Indian dining',
+    alt: 'CurryMama — authentic Pakistani & Indian dining',
   },
   {
     src: 'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=940&q=80',

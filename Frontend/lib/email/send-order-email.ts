@@ -1,4 +1,4 @@
-interface OrderEmailParams {
+﻿interface OrderEmailParams {
   order: {
     id: string
     order_type: 'pickup' | 'delivery'
@@ -70,7 +70,7 @@ export async function sendOrderAlertEmail({ order, items }: OrderEmailParams) {
       <body>
         <div class="container">
           <div class="header">
-            <h1>🔥 DesiZaika Order Alert</h1>
+            <h1>🔥 CurryMama Order Alert</h1>
             <p>New customer order received!</p>
             <div class="badge">${orderTypeLabel}</div>
           </div>
@@ -131,7 +131,7 @@ export async function sendOrderAlertEmail({ order, items }: OrderEmailParams) {
           </div>
 
           <div class="footer">
-            DesiZaika Restaurant • 30 Crumlin Rd, Dublin, D12 HXW0 • (01) 538 1281
+            CurryMama Restaurant • 30 Crumlin Rd, Dublin, D12 HXW0 • (01) 538 1281
           </div>
         </div>
       </body>
@@ -146,7 +146,7 @@ export async function sendOrderAlertEmail({ order, items }: OrderEmailParams) {
         Authorization: `Bearer ${apiKey}`,
       },
       body: JSON.stringify({
-        from: 'DesiZaika Orders <onboarding@resend.dev>',
+        from: 'CurryMama Orders <onboarding@resend.dev>',
         to: [recipientEmail],
         subject: `🚨 NEW ORDER ${orderRef} — €${Number(order.total_price).toFixed(2)} (${order.customer_name})`,
         html,

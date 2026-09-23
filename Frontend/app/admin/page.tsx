@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect, useCallback } from 'react';
 import { useAuth } from '@/components/auth/auth-context';
@@ -395,7 +395,7 @@ export default function AdminPage() {
               </div>
               <div>
                 <div className="flex items-center gap-2">
-                  <h1 className="font-display text-2xl font-extrabold tracking-tight">DesiZaika Dashboard</h1>
+                  <h1 className="font-display text-2xl font-extrabold tracking-tight">CurryMama Dashboard</h1>
                   <span className="flex items-center gap-1 rounded-full bg-emerald-500/15 px-3 py-0.5 text-xs font-bold text-emerald-600 dark:text-emerald-400 border border-emerald-500/30 shadow-sm">
                     <span className="h-2 w-2 rounded-full bg-emerald-500 animate-ping" /> Live Operations
                   </span>
