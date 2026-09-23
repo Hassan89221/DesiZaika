@@ -1,4 +1,4 @@
-# 🔥 DesiZaika — Restaurant Website & Admin Operations Platform
+﻿# 🔥 CurryMama — Restaurant Website & Admin Operations Platform
 
 ![Next.js](https://img.shields.io/badge/Next.js-13.5-black?style=for-the-badge&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.2-blue?style=for-the-badge&logo=typescript)
@@ -6,7 +6,7 @@
 ![Supabase](https://img.shields.io/badge/Supabase-Database%20%26%20Auth-3ecf8e?style=for-the-badge&logo=supabase)
 ![Resend](https://img.shields.io/badge/Resend-Email%20Alerts-black?style=for-the-badge&logo=resend)
 
-**DesiZaika** is a full-stack, production-ready online ordering and restaurant management web application built for **DesiZaika Dublin, Ireland** (Location: 30 Crumlin Rd, Crumlin, Dublin, D12 HXW0). 
+**CurryMama** is a full-stack, production-ready online ordering and restaurant management web application built for **CurryMama Dublin, Ireland** (Location: 30 Crumlin Rd, Crumlin, Dublin, D12 HXW0). 
 
 It features an online ordering interface, interactive menu, authentication system, dish details pop-up, live admin operations dashboard, and automated email order notification system.
 
@@ -98,14 +98,14 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 Currently, order alert emails are sent using Resend's free testing domain (`onboarding@resend.dev`), which Gmail places in the Spam folder during development.
 
-When you purchase your official domain (e.g., `desizaika.ie`):
+When you purchase your official domain (e.g., `CurryMama.ie`):
 
 1. Log in to [Resend Dashboard](https://resend.com/domains) → Click **Add Domain**.
-2. Enter your domain name (`desizaika.ie`).
+2. Enter your domain name (`CurryMama.ie`).
 3. Add the **3 DNS records** (DKIM, SPF, DMARC) provided by Resend to your domain registrar (GoDaddy, Cloudflare, Namecheap).
 4. Update `from` address in `lib/email/send-order-email.ts`:
    ```ts
-   from: 'DesiZaika Orders <orders@desizaika.ie>'
+   from: 'CurryMama Orders <orders@CurryMama.ie>'
    ```
 5. All future emails will land 100% directly in your Primary Inbox!
 
@@ -113,11 +113,11 @@ When you purchase your official domain (e.g., `desizaika.ie`):
 
 ## 📞 Restaurant Contact Info
 
-* **Restaurant Name**: DesiZaika
+* **Restaurant Name**: CurryMama
 * **Address**: 30 Crumlin Rd, Crumlin, Dublin, Co. Dublin, D12 HXW0, Ireland
 * **Phone**: (01) 538 1281
 * **Email**: Unxox11@gmail.com
 
 ---
 
-&copy; 2026 DesiZaika Restaurant. All rights reserved.
+&copy; 2026 CurryMama Restaurant. All rights reserved.
